@@ -1,0 +1,98 @@
+.signup-hero img{
+    width: 610px;
+    height: 691px;
+}
+
+.signup-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.signup-form{
+    padding: 100px 0px;
+    width: 610px;
+    height: 691px;
+}
+
+.SignUp{
+    width: 1280px;
+height: 601px;
+}
+
+.signupdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signupdiv Card{
+    padding: 0;
+}
+.input-item input{
+    border: none;
+    border-radius: 20px;
+    padding: 16px 20px;
+    width: 300px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2b2b2b;
+    padding-left: 50px;
+    }
+
+input::placeholder{
+    color: #2b2b2b;
+}
+
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-item button{
+    border-radius: 20px;
+    padding: 0px 50px;
+    width: 370px;
+    height: 46px;
+    background: #a259ff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    border: none;
+}
+
+.input-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .icon {
+    margin-left: 1rem;
+    position: absolute;
+  }
+  
+  .input {
+    flex: 1;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+  }

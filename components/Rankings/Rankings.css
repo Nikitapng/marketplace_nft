@@ -1,0 +1,180 @@
+.topcreators-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 351px;
+}
+
+.topcreators {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1050px;
+}
+
+.headline {
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.subhead {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.topcreators-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 262.5px;
+    height: 60px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.switcher-name {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+#today-switcher {
+    border-bottom: 2px solid #858584;
+}
+
+#week-switcher .switcher-name, #month-switcher .switcher-name, #alltime-switcher .switcher-name {
+    color: #858584;
+}
+
+.topcreators-list-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    background-color: #2B2B2B;
+}
+
+.topcreators-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1050px;
+}
+
+.topcreators-list-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1050px;
+    height: 46px;
+    padding: 0px 20px;
+    color: #858584;
+    border: 1px solid #3B3B3B;
+    border-radius: 30px;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.rank {
+    margin-right: 20px;
+}
+
+.artist {
+    margin-right: 380px;
+}
+
+.nfts-sold, .volume {
+    margin-left: 120px;
+}
+
+.topcreator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 84px;
+    width: 1050px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    color: white;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.topcreator-rank{
+    background: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.topcreator-avatar img{
+    width: 60px;
+    height: 60px;
+}
+.topcreator-avatar{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.topcreator-name{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 50px;
+    width: 290px;
+}
+
+.topcreator-change, .topcreator-soldcount, .topcreator-volume{
+    width: 180px;
+    margin-right: 10px;
+}
+
+.topcreator-change{
+    color: #00AC4F;
+}

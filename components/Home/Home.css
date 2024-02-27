@@ -1,0 +1,572 @@
+body{
+    background-color: #2B2B2B;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero-main-text{
+    font-family: Work Sans;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.Card{
+    padding: 40px 85px 40px 85px;
+    display: flex;
+    width: 1020px;
+}
+
+.left-block{
+    width: 510px;
+    height: 544px;
+    gap: 30px;
+}
+
+p{
+    color: white;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Hero .solid{
+    width: 250px;
+}
+
+.text-block p{
+    margin: 0;
+    height: 30px;
+}
+.text-block{
+    margin-top: 30px;
+}
+
+.top-text{
+    font-size: 23px;
+    font-family: "Space Mono", monospace;
+    font-weight: 600;
+}
+
+.text-blocks{
+    display: flex;
+    gap: 50px;
+}
+
+.card-block{
+    width: Fill (510px);
+    height: Fixed (510px);
+}
+
+.card-block img{
+    width: 510px;
+height: 401px;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+.card-block .bottom{
+    margin: 0px 20px ;
+}
+.bottom img{
+    width: 30px;
+    height: 30px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    height: 30px;
+}
+
+.card-block{
+    background: #3B3B3B;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bottom .big{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+h1{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin: 5px 0px;
+}
+
+.Creators p{
+    margin: 0;
+}
+.Creators{
+    flex-direction: column;
+    align-items: start;
+}
+
+.Trending p{
+    margin: 0;
+}
+.Discover p{
+    margin: 0;
+}
+.mpsection p{
+    margin: 0;
+}
+.Trending{
+    flex-direction: column;
+    align-items: start;
+}
+
+.HowIt{
+    flex-direction: column;
+    align-items: start;
+}
+
+.HowIt p{
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+}
+
+.main-card-img{
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.card-list img{
+    width: 100px;
+height: 100px;
+border-radius: 20px;
+
+}
+
+.card-list div{
+    width: 100px;
+    height: 100px;
+    background: #A259FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.cards-how{
+    display: flex;
+    gap: 20px;
+}
+.container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap:25px 35px; 
+  }
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1025px;
+}
+
+.Categories{
+    flex-direction: column;
+}
+
+.cat-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap:25px 20px; 
+}
+
+.Discover .border{
+    width: 170px;
+}
+
+.Discover {
+    display: flex;
+    flex-direction: column;
+}
+
+.dis-card{
+    margin-top: 30px;
+    background: #3B3B3B;
+    width:330px;
+    height: 469px;
+    border-radius: 20px;
+}
+
+.mainImg{
+    width: 330px;
+    height: 296px;
+    border-radius: 20px, 20px, 0px, 0px;
+    gap: 10px;
+}
+
+.dis-card .profile img{
+    width: 24px;
+}
+
+.dis-card .profile p{
+    font-size: 16px;
+}
+.dis-card .profile{
+    gap: 12px;
+}
+
+.top-txts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 30px;
+}
+
+.end-txts{
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-between;
+}
+
+.top-dis-block-txt{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858584;
+}
+.end .top-dis-block-txt{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #858584;
+}
+
+.end-dis-block-txt{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dis-block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.high-obj .solid{
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 220px;
+}
+
+.Highlight{
+    background-image: url(../../img/Highlight/Banner.svg) ;
+    background-position: center ;
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+}
+
+.Highlight .profile{
+    font-size: 16px;
+    gap: 15px;
+    background: #3B3B3B;
+    padding: 10px 20px;
+    width: min-content;
+    border-radius: 20px;
+}
+
+.Highlight .profile img{
+    width: 24px;
+    
+}
+
+.high-p{
+    margin: 30px 0;
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.high-objs{
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.timer-blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.timer-block .main{
+    font-family: Space Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.timer-block p{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.auct-p{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.auct{
+    background: #3B3B3B80;
+    height: 107px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.how-card h1{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.how-card p{
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.how-card{
+    width: 270px;
+height: 389px;
+padding: 10px 30px 30px 30px;
+border-radius: 20px;
+background: #3B3B3B;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.how-card img{
+    width: 250px;
+}
+
+.cards-how{
+    margin-top: 30px;
+}
+
+
+.subscribe-input-area {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #subscribe-input {
+    width: 200px;
+    height: 60px;
+    padding: 0px 40px 0px 20px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+  }
+  
+  #subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background-color: #A259FF;
+    color: #fff;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 0px -20px;
+    cursor: pointer;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .subscr-card{
+    width: 1,050px;
+    height: 430px;
+    border-radius: 20px;
+    gap: 80px;
+    background: #3B3B3B;
+  }
+  .sub-card{
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1,050px;
+    height: 430px;
+    border-radius: 20px;
+    gap: 80px;
+    background: #3B3B3B;
+  }
+
+.subscr-img{
+    width: 425px;
+height: 310px;
+border-radius: 20px;
+}
+
+.right-sec h1{
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+width: 425px;
+height: 92px;
+margin: 0;
+}
+
+.right-sec p{
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.mpsection .mpcards{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap:0px 30px; 
+}
+
+.mp-card{
+    margin-top: 30px;
+    background: #2B2B2B;
+    width:330px;
+    height: 469px;
+    border-radius: 20px;
+}
+
+.mainImg{
+    width: 330px;
+    height: 296px;
+    border-radius: 20px, 20px, 0px, 0px;
+    gap: 10px;
+}
+
+.mp-card .profile img{
+    width: 24px;
+}
+
+.mp-card .profile p{
+    font-size: 16px;
+}
+.mp-card .profile{
+    gap: 12px;
+}
+
+.dis-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.mp-flex{
+    display: flex;
+    justify-content: center;
+    background-color: #3B3B3B;
+}
+
+.mpcards{
+    padding-bottom: 100px;
+}
